@@ -6,6 +6,16 @@ Professional command-line workflow for patching Instagram using ReVanced CLI.
 
 Lightweight, reproducible, and developer-focused setup designed for automation and manual control over patch execution.
 
+<br>
+
+[<img src="https://img.shields.io/badge/Get%20Releases-GitHub-black?logo=github&style=for-the-badge"
+alt="Get it on GitHub"
+height="45">](../../releases)
+
+[<img src="https://github.com/user-attachments/assets/713d71c5-3dec-4ec4-a3f2-8d28d025a9c6"
+alt="Get it on Obtainium"
+height="80">](https://apps.obtainium.imranr.dev/)
+
 </div>
 
 ---
@@ -15,11 +25,12 @@ Lightweight, reproducible, and developer-focused setup designed for automation a
 This project provides a clean CLI-based process to apply supported ReVanced patches to Instagram.
 It is intended for users who prefer transparent builds instead of GUI patchers.
 
-The goal is to keep the workflow minimal:
+The workflow focuses on:
 
 * Manual APK input
 * Controlled patch selection
-* Clear logging during build
+* Clean terminal logging
+* Reproducible developer builds
 
 ---
 
@@ -28,11 +39,11 @@ The goal is to keep the workflow minimal:
 Before starting, ensure the following are installed:
 
 * Java (JDK 17 or newer)
-* Windows Command Prompt / PowerShell
+* Windows Command Prompt or PowerShell
 * Latest `revanced-cli.jar`
 * Latest `revanced-patches.jar`
 
-Download official tools from their respective sources and place them locally.
+Download official tools manually and place them locally.
 
 ---
 
@@ -110,13 +121,13 @@ Explanation:
 * **INFO succeeded** → Patch applied correctly.
 * **SEVERE fingerprint error** → Patch does not match current APK version.
 
-This is common because Instagram updates frequently.
+Instagram updates frequently, so some patches may temporarily fail.
 A failed patch does not always stop the build process.
 
 Recommended approach:
 
 * Use a supported APK version.
-* Update patches regularly.
+* Keep patches updated.
 * Remove incompatible patches from configuration if needed.
 
 ---
@@ -128,16 +139,24 @@ Recommended approach:
 
 If installation fails:
 
-* Remove the original Instagram app first.
+* Uninstall the original Instagram app first.
 * Ensure signatures are compatible.
+
+---
+
+## Obtainium Support
+
+This project can be tracked using Obtainium for update monitoring.
+
+Add the GitHub repository link inside Obtainium to receive future release notifications.
 
 ---
 
 ## Notes
 
 * APK files are intentionally not included.
-* This project only provides automation scripts and configuration.
-* Users are responsible for maintaining legal and ethical usage.
+* This project only contains automation scripts and configuration.
+* No proprietary binaries are distributed.
 
 ---
 
