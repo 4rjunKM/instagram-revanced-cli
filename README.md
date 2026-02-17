@@ -12,10 +12,6 @@ Lightweight, reproducible, and developer-focused setup designed for automation a
 alt="Get it on GitHub"
 height="45">](../../releases)
 
-[<img src="https://github.com/user-attachments/assets/713d71c5-3dec-4ec4-a3f2-8d28d025a9c6"
-alt="Get it on Obtainium"
-height="80">](https://apps.obtainium.imranr.dev/)
-
 </div>
 
 ---
@@ -141,14 +137,6 @@ If installation fails:
 
 * Uninstall the original Instagram app first.
 * Ensure signatures are compatible.
-
----
-
-## Obtainium Support
-
-This project can be tracked using Obtainium for update monitoring.
-
-Add the GitHub repository link inside Obtainium to receive future release notifications.
 
 ---
 
