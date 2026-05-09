@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/4rjunKM/instagram-revanced-cli/main/assets/banner.png" width="100%">
+<img src="https://raw.githubusercontent.com/4rjunKM/instagram-revanced-cli/main/assets/banner.png" alt="Banner" width="100%">
 
 # Instagram ReVanced CLI
 
@@ -22,7 +22,7 @@ alt="GitHub Releases"
 height="60">
 </a>
 
-<a href="https://github.com/ImranR98/Obtainium">
+<a href="obtainium://add/https://github.com/4rjunKM/instagram-revanced-cli">
 <img src="https://img.shields.io/badge/Get%20it%20on-Obtainium-6A0DAD?style=for-the-badge&logo=android&logoColor=white"
 alt="Obtainium"
 height="60">
@@ -76,11 +76,7 @@ Download the latest APK directly from the releases section.
 
 ## Obtainium
 
-Add the repository URL inside Obtainium:
-
-```text
-https://github.com/4rjunKM/instagram-revanced-cli
-```
+Tap the Obtainium badge above on Android to directly import this repository into Obtainium.
 
 Obtainium will automatically:
 
